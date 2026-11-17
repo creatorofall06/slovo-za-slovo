@@ -1,0 +1,16 @@
+{
+  "name": "slovo-za-slovo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Локальная Android-игра Слово за слово",
+  "scripts": {
+    "build:android": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
